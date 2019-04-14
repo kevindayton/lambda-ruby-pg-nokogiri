@@ -1,4 +1,4 @@
 services:
   - docker
 script:
-  - make && make test
+  - make && make install && make test
